@@ -49,7 +49,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero{padding-block:90px 130px;overflow:hidden;border-top:0}
 .hero::after{content:"";position:absolute;left:50%;bottom:-340px;width:1300px;max-width:170vw;height:600px;transform:translateX(-50%);background:radial-gradient(closest-side,var(--glow-soft),rgba(43,77,139,.16) 55%,transparent);pointer-events:none}
 .hero .wrap{position:relative;z-index:1}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.8fr);gap:56px;align-items:end}
+.hero-grid{display:block;max-width:820px}
 .h1sub{font-size:clamp(20px,2.4vw,28px);font-weight:700;color:var(--sub);letter-spacing:-.02em;line-height:1.4;margin:18px 0 0}
 .hero p.lede{color:var(--body);max-width:31em;margin:30px 0 0;font-size:17px}
 .photo{aspect-ratio:4/5;max-width:100%;width:100%;background:#E9E9E9;position:relative;overflow:hidden;display:grid;place-items:center;margin:0}
@@ -214,17 +214,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       <div>
         <p class="kicker">HRBP / HR Lead</p>
         <h1>사람을 뽑고, 기준을 세우고,<br>성과 내는 조직을 만드는<br class="d"> HR입니다.</h1>
-        <p class="lede">인력 아웃소싱과 IT 스타트업의 코스피 상장(IPO)을 거쳐, 지금은 직진코퍼레이션에서 채용부터 인사기획까지 HR 전반을 맡고 있습니다. 사업이 빠르게 바뀌는 회사에서 필요한 사람을 찾고, 그 사람들이 일할 기준을 만드는 일을 해왔습니다.</p>
+        <p class="lede">인력 아웃소싱에서 IT 스타트업의 코스피 상장(IPO)까지 경험하고, 지금은 직진코퍼레이션에서 채용부터 인사기획까지 HR 전반을 맡고 있습니다. 사업이 빠르게 바뀌는 회사에서 필요한 사람을 찾고, 그 사람들이 일할 기준을 만드는 일을 해왔습니다.</p>
         <div class="btnrow">
           <a class="obtn" href="#work">주요 사례 보기 <span aria-hidden="true">↓</span></a>
           <a class="obtn" href="https://jikjin.co/" target="_blank" rel="noopener">기획한 채용 페이지 <span aria-hidden="true">↗</span></a>
           <a class="obtn" href="https://www.linkedin.com/in/%EC%95%84%EB%A6%84-%EC%9D%B4-4324a2229/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <figure class="photo">
-        <span class="ph" aria-hidden="true">AL</span>
-        <figcaption><b>Ahreum Lee</b>이아름</figcaption>
-      </figure>
     </div>
   </div>
 </section>
@@ -232,7 +228,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
 <section class="sec" id="career">
   <div class="wrap">
     <p class="kicker">경력</p>
-    <h2>인력 아웃소싱과 IPO를 거쳐<br>성장하는 회사의 HR을 맡고 있습니다.</h2>
+    <h2>인력 아웃소싱에서 IPO까지 경험하고,<br>지금은 성장하는 회사의 HR을 맡고 있습니다.</h2>
     <div class="tl">
       <div class="job">
         <div class="when"><b>2024.09 ~ 현재</b><span class="dur" data-from="2024-09-20"></span></div>
